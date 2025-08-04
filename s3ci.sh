@@ -9,6 +9,7 @@ fi
 echo "Downloading S3 Cliiper..."
 
 sudo wget -P /usr/local/bin https://github.com/wildcommunist/s3-clipper/raw/refs/heads/main/s3c
+sudo chmod +x /usr/local/bin/s3c
 
 s3c
 
